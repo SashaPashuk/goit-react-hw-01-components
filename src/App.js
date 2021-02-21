@@ -4,7 +4,9 @@ import user from "./base/profile.json"
 import Statistics from "./components/Statistics/Statistics"
 import StatisticsBase from "./base/statistics.json"
 import FriendList from "./components/Friends/Friends"
-import friends from "./base/friends.json";
+import Friends from "./base/friends.json";
+import Transactions from './base/transactions.json';
+import TransactionHistory from "./components/Transaction/Transaction"
 
 const App  = () => {
   return ( 
@@ -17,7 +19,8 @@ const App  = () => {
   stats={user.stats}
 />
    <Statistics items={StatisticsBase}/>,
-   <FriendList friends={friends} />,
+   <FriendList friends={Friends} />,
+   <TransactionHistory items={Transactions} />,
  </>
  )
 }

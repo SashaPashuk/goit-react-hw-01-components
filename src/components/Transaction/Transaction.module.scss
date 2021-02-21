@@ -1,0 +1,22 @@
+.transactionHistory {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    .mainRowTable th {
+        background-color: teal;
+        color: #fff;
+    }
+    th {
+        width: 150px;
+        height: 50px;
+        border: 1px solid black;
+        color: #4D4646;
+        cursor: pointer;
+        }
+    }
+    .mainRowTable th:hover {
+        background-color: red;
+        color: black;
+    }
+    th:hover  {
+        background-color: #DC88B3;
+        color: blue;
+    }

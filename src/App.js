@@ -16,14 +16,9 @@ const App  = () => {
   avatar={user.avatar}
   stats={user.stats}
 />
-
    <Statistics items={StatisticsBase}/>,
    <FriendList friends={friends} />,
  </>
  )
 }
 export default App
-
-// ======TASK2=====
-
-

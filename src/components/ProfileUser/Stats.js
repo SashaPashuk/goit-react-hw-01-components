@@ -1,5 +1,5 @@
-import React from "react"
-import style from "./Stats.module.scss"
+import React from 'react';
+import style from './Stats.module.scss';
 
 const Stats = ({ followers, views, likes }) => (
   <ul className={style.statsList}>
@@ -16,7 +16,6 @@ const Stats = ({ followers, views, likes }) => (
       <span className={style.quantity}>{likes}</span>
     </li>
   </ul>
-
 );
 
-export default Stats
+export default Stats;
